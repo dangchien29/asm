@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    width: 1060px;
+    /* height: auto;  */
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgb(30, 30, 30);
+    border-radius: 3px;
+}
+
+#nav {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#nav ul.hmenu {
+    border-radius: 5px;
+    list-style: none;
+    background-color: #f50602;
+    height: 40px;
+}
+
+.haha {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul.hmenu li a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 25px;
+    color: white;
+}
+
+#nav ul.hmenu li a:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+#nav ul.hmenu li {
+    float: left;
+    margin: 0 5px;
+    position: relative;
+}
+
+#nav ul.hmenu li:hover .submenu {
+    display: block;
+}
+
+#nav .submenu {
+    border-radius: 5px;
+    box-shadow: 0 0 5px #4e5c61;
+    list-style: none;
+    position: absolute;
+    width: 200px;
+    padding: 0px;
+    background: #378ced;
+    display: none;
+}
+
+#nav .right ul {
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuright .search {
+    float: right;
+    width: 200px;
+    height: 39px;
+    margin: 0px;
+}
+
+.icon a {
+    float: right;
+    margin: 5px;
+}
+
+
+
+.content .letf {
+    /* width: 25%; */
+    border: 2px solid #80c2d8;
+    height: 100%;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.content .letf ul {
+    padding: 0 px;
+    margin: 5 px;
+    list-style: none;
+    border-radius: 3 px;
+    box-shadow: 0 0 2 pixel rgb(149, 119, 113);
+}
+
+.content .letf ul a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #717a77;
+    color: #08030576;
+    font-size: larger;
+    padding: 8px 5px 8px 30px;
+}
+
+.schedule {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+tbody td {
+    border: 1px solid #ddd;
+}
+
+tbody td:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    line-height: 35px;
+    background-color: #1d64e9;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    margin: 15px 0;
+}
